@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/track">
+
+    <fragment
+        android:id="@+id/track"
+        android:name="com.stucial.trackfood.Track"
+        android:label="fragment_recipes"
+        tools:layout="@layout/fragment_track" />
+
+</navigation>
